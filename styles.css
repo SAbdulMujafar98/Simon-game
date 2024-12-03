@@ -55,11 +55,6 @@ body {
   background-color: red;
 }
 
- input{
-  display: none;
- }
-
-@media (max-width:769px){
   input{
     display:inline-block;
     width: 80%;
@@ -69,13 +64,4 @@ body {
     text-align: center;
     background-color: #fff;
   }
-  .container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .btn{
-    width: 100px;
-    height: 100px;
-  }
-}
+
